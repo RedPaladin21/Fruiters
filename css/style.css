@@ -1,0 +1,107 @@
+/* Adding color to the background of the navigation bar */
+.nav {
+    background-color: #cf130c;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .nav a.active {
+    background-color: #cf130c;
+    color: white;
+  }
+  .nav a.active {
+    background-color: #cf130c;
+    color: white;
+  }
+  .nav a.active {
+    background-color: #cf130c;
+    color: white;
+  }
+  .nav a.active {
+    background-color: #cf130c;
+    color: white;
+  }
+  .nav .icon {
+    display: none;
+  
+  }
+
+  
+  .company-image-wrapper{
+    width: 100vw;
+    height: 100vw;
+    display: grid;
+    justify-content: center;
+  }
+  .company-image{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 10%;
+      float: left;
+  }
+
+  body{
+    background-color:bisque;
+  }
+  h1{
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  table, th, td {
+    border:1px solid black;
+  }
+  .apple-image{
+    width: 100%;
+  }
+  /* This helps to positon the titel Featured products at the center of the of the page */
+  .title {
+    margin: 4rem 0 7rem 0;
+    text-align: center;
+  }
+  /* This part selcts the font size of the title */
+  .title h1{
+    font-size: 3rem;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+  }
+  /* Creates and underline pink bar under Featured Products*/
+  .title h1::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -20%;
+    transform:  translate(-50%, -50%);
+    background-color: #f60091;
+    width: 50%;
+    height: 0.4rem;
+    z-index: 1;
+  }
+  
+  /* Products*/
+  .product-center{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem, 1fr));
+    gap: 7rem 3rem;
+  }
+ 
+
+
+
